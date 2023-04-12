@@ -1,0 +1,29 @@
+@font-face {
+    font-family: Candara;
+    src: url();
+}
+
+body {
+    background-color: #A5A38E;
+    font-family: Candara;
+}
+li {
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+    margin: 20px;
+    padding: 0px;
+}
+li a {
+    text-decoration: none;
+    color: #DFDFDF;
+    font-size: 20px;
+    border-left: 3px solid #DFDFDF;
+    padding-left: 40px;
+    transition: 0.5s;
+}
+li a:hover {
+    color: #ffffff;
+    font-weight: 700;
+    transition: 0.5s;
+}
