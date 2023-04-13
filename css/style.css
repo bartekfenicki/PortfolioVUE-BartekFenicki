@@ -2,53 +2,18 @@
     font-family: Candara;
     src: url(/assets/candara.ttf);
 }
-@media screen and (max-width:975px){
-    nav ul li {
-        margin: 10px;
-    }
-    nav ul li a {
-        font-size: 15px;
-        padding-left: 20px;
-    }
-    nav ul li a.active {
-        font-size: 15px;
-        
-    }
-}
-@media screen and (max-width:675px){
-    nav {
-        background-color: #2c2c2c;
-    }
-    nav ul li {
-        display: block;
-        margin-left: 0px;
-        text-align: center;
-        width: 100%;
-        height: 100%;
-    }
-    
-    nav ul li a {
-        font-size: 15px;
-        padding-left: 0px;
-        border: none;
-        color: #b6b5aa;
-    }
-    nav ul li a:hover {
-        font-size: 25px;
-        color: #ffffff;
-    }
-    nav ul li a.active {
-        text-align: right;
-        font-size: 40px;
-        color: #ffffff;
-    }
-}
+
 
 
 body {
     background-color: #A5A38E;
     font-family: Candara;
+   
 }
+
+/* NAVIGATION RESPONSIVE*/
+
+
 nav {
     margin: 0;
     padding: 0;
@@ -81,14 +46,374 @@ li a {
     text-transform: uppercase;
 }
 li a:hover {
-    color: #ffffff;
+    color: #3A3A3A;
     transition: 0.5s;
 }
 li a.active {
-    color: rgb(38, 37, 37);
+    color: #3A3A3A;
     font-size: 20px;
 }
 li a.active:hover {
     color: #DFDFDF;
     transition: 0.5s;
 }
+
+@media screen and (max-width:975px){
+    nav ul li {
+        margin: 10px;
+    }
+    nav ul li a {
+        font-size: 15px;
+        padding-left: 20px;
+    }
+    nav ul li a.active {
+        font-size: 15px;
+        
+    }
+}
+@media screen and (max-width:675px){
+    nav {
+        background-color: #3A3A3A;
+    }
+    nav ul li {
+        display: block;
+        margin-left: 0px;
+        text-align: center;
+        width: 100%;
+        height: 100%;
+    }
+    
+    nav ul li a {
+        font-size: 15px;
+        padding-left: 0px;
+        border: none;
+        color: #b6b5aa;
+    }
+    nav ul li a:hover {
+        font-size: 25px;
+        color: #ffffff;
+    }
+    nav ul li a.active {
+        text-align: right;
+        font-size: 40px;
+        color: #ffffff;
+    }
+}
+
+
+/* MAIN SECTION  PROFILE RESPONSIVE */
+
+main {
+    margin-top: 150px;
+    margin-left: 200px;
+    display: block;
+}
+.profile {
+    display: flex;
+}
+.profilePic {
+    height: 350px;
+    width: 350px;
+    border: 3px solid #DFDFDF;
+    border-radius: 20px;
+    background-image: url(/assets/IMG-1971.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.text-space {
+    margin-top: 50px;
+}
+.name {
+    font-size: 85px;
+    letter-spacing: 5px;
+    margin: 0px;
+    border-bottom: 3px solid #DFDFDF;
+    color: #DFDFDF;
+}
+.text-space span {
+    margin-left: 25px;
+}
+.job-title {
+    color: #DFDFDF;
+    font-size: 55px;
+    letter-spacing: 5px;
+    margin: 0px;
+}
+.mobileNav {
+    display: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+@media screen and (max-width:1675px){ 
+main {
+margin-left: 100px;
+margin-top: 100px;
+}
+main .profile .profilePic {
+    height: 300px;
+    width: 300px;
+    
+}
+main .profile .text-space .name {
+    font-size: 70px;
+    letter-spacing: 4px;
+}
+main .profile .text-space .job-title {
+    font-size: 45px;
+    letter-spacing: 4px;
+}
+
+
+}
+@media screen and (max-width:1375px){ 
+    main {
+        margin-left: 70px;
+        margin-top: 80px;
+        }
+        main .profile .profilePic {
+            height: 250px;
+            width: 250px;
+            
+        }
+        main .profile .text-space .name {
+            font-size: 60px;
+            letter-spacing: 3px;
+        }
+        main .profile .text-space .job-title {
+            font-size: 35px;
+            letter-spacing: 3px;
+        }
+    }
+    @media screen and (max-width:990px){ 
+        main {
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 80px;
+            width: 100%;
+            }
+            main .profile {
+                display: inline-block;
+                text-align: center;
+                width: 100%;
+            }
+            main .profile .profilePic {
+                height: 300px;
+                width: 300px;
+                margin-left:  auto ;
+                margin-right:  auto ;
+            }
+            main .profile .text-space {
+                   width: 100%;
+            }
+            main .profile .text-space .name {
+                font-size: 60px;
+                letter-spacing: 3px;
+            }
+            main .profile .text-space .job-title {
+                font-size: 35px;
+                letter-spacing: 3px;
+            }
+            main .profile .text-space span {
+                margin-left: 0px;
+            }
+        }
+        @media screen and (max-width:675px){ 
+            nav {
+                display: none;
+            }
+            main {
+                
+                margin-top: 20px;
+                width: 100%;
+                }
+                main .profile {
+                    display: inline-block;
+                    text-align: center;
+                    width: 100%;
+                    
+                }
+                main .profile .profilePic {
+                    height: 200px;
+                    width: 200px;
+                    margin-left:  auto ;
+                    margin-right:  auto ;
+                }
+                main .profile .text-space {
+                        width: 100%;
+                           
+                }
+                main .profile .text-space .name {
+                    font-size: 30px;
+                    letter-spacing: 0px;
+                }
+                main .profile .text-space .job-title {
+                    font-size: 20px;
+                    letter-spacing: 0px;
+                }
+                main .profile .text-space span {
+                    margin-left: 0px;
+                }
+
+                main .mobileNav {
+                    position: absolute;
+                    width: 100%;
+                    display: block;
+                    text-align: center;
+                    top: 820px;
+                    background-color: #3A3A3A;
+                    
+                }
+                main .mobileNav ul li {
+                    display: block;
+                    margin-left: 0px;
+                    text-align: center;
+                    width: 100%;
+                }
+                
+                main .mobileNav ul li a {
+                    font-size: 15px;
+                    padding-left: 0px;
+                    border: none;
+                    color: #DFDFDF;
+                }
+                main .mobileNav ul li a:hover {
+                    font-size: 25px;
+                    color: #ffffff;
+                }
+                main .mobileNav ul li a.active {
+                    text-align: right;
+                    font-size: 40px;
+                    color: #ffffff;
+                }
+}
+/* MAIN SECTION  DESCRIPTION RESPONSIVE */
+.profileInfo {
+width: 100%;
+display: block;
+}
+.description {
+text-align: justify;
+margin-top: -80px;
+margin-left: 450px;
+width: 1000px;
+margin-right: auto;
+}
+.description span {
+color: #3A3A3A; 
+}
+.description p {
+font-size: 20px;
+color: #DFDFDF;
+}
+button {
+    width: 250px;
+    margin-left: 450px;
+    padding: 10px 40px 10px 40px;
+    background-color: #DFDFDF;
+    border: 3px solid #DFDFDF;
+    border-radius: 20px;
+    color: #3A3A3A;
+    letter-spacing: 1px;
+    transition: 0.3s;
+}
+button:hover {
+    background-color: #3A3A3A;
+    color: #DFDFDF;
+    border: 3px solid #3A3A3A;
+}
+@media screen and (max-width: 1675px){
+
+main .profileInfo .description {
+    width: 900px;
+}
+
+
+ }
+ @media screen and (max-width: 1475px){
+
+    main .profileInfo .description {
+        width: 850px;
+        margin-left: 400px;
+    }
+    main .profileInfo button {
+        margin-left: 400px;
+    }
+    
+     }
+     @media screen and (max-width: 1375px){
+
+        main .profileInfo .description {
+            width: 850px;
+            margin-left: 300px;
+            margin-top: -30px;
+        }
+        main .profileInfo button {
+            margin-left: 300px;
+        }
+        
+         }
+         @media screen and (max-width: 1200px){
+
+            main .profileInfo .description {
+                width: 700px;
+                margin-left: 300px;
+                margin-top: 0px;
+            }
+            main .profileInfo button {
+                margin-left: 300px;
+            }
+            
+             }
+             @media screen and (max-width: 1100px){
+
+                main .profileInfo .description { 
+                    margin-left: 200px;
+                    margin-top: 20px;
+                }
+                main .profileInfo button {
+                    margin-left: 200px;
+                }
+                
+                 }
+                 @media screen and (max-width:990px){
+                    main .profileInfo {
+                        display: block;
+                    }
+                    main .profileInfo .description {
+                        width: 600px;
+                        margin-left: auto;
+                        margin-right: auto;
+                        margin-top: 60px;
+                    }
+                    main .profileInfo button {
+                        display: block;
+                        margin-left: auto;
+                        margin-right: auto;
+                        margin-top: 10px;
+                    }
+
+
+                  }
+                  @media screen and (max-width:675px){
+                    main .profileInfo {
+                        display: block;
+                    }
+                    main .profileInfo .description {
+                        width: 350px;
+                        margin-left: auto;
+                        margin-right: auto;
+                        margin-top: 60px;
+                    }
+                    main .profileInfo button {
+                        display: block;
+                        margin-left: auto;
+                        margin-right: auto;
+                        margin-top: 10px;
+                    }
+
+
+                  }
