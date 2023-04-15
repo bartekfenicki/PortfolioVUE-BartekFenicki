@@ -45,12 +45,68 @@ data () {
                 description: ''
             },
         ],
-        photographies: [
+        photos: [
             {
-                image: '',
-                title: '',
-                description: ''
+                image: 'assets/IMG_0008.jpg',
+                title: 'Malta, Valetta',
+                date: 'July 2022'
             },
+            {
+                image: 'assets/IMG_0017.jpg',
+                title: 'Malta, Marsaxlokk',
+                date: 'July 2022'
+            },
+            {
+                image: 'assets/IMG_0023.jpg',
+                title: 'Malta, St. Peters Pool',
+                date: 'July 2022'
+            },
+            {
+                image: 'assets/IMG_0105.jpg',
+                title: 'Denmark, Fanø',
+                date: 'August 2022'
+            },
+            {
+                image: 'assets/IMG_0426.jpg',
+                title: 'Netherlands, Amsterdam',
+                date: 'October 2022'
+            },
+            {
+                image: 'assets/IMG_1283.jpg',
+                title: 'Denmark, Kopenhagen',
+                date: 'February 2023'
+            },
+            {
+                image: 'assets/IMG_7744.jpg',
+                title: 'Poland, Zakopane',
+                date: 'May 2021'
+            },
+            {
+                image: 'assets/IMG_8848.jpg',
+                title: 'Poland, Gdańsk',
+                date: 'September 2021'
+            },
+            {
+                image: 'assets/IMG_9064.jpg',
+                title: 'Poland, Podkowa Leśna',
+                date: 'Early October 2020'
+            },
+            {
+                image: 'assets/IMG-1543.jpg',
+                title: 'Netherlands, The Hague',
+                date: 'December 2022'
+            },
+            {
+                image: 'assets/IMG-8619.jpg',
+                title: 'Poland, Mazury',
+                date: 'July 2021'
+            },
+            {
+                image: 'assets/EDITPSDENhaag.png',
+                title: 'Netherlands, The Hague - edited',
+                date: 'October 2022'
+            },
+           
         ]
     }
 }

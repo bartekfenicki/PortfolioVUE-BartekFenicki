@@ -9,7 +9,7 @@
     <script src="https://kit.fontawesome.com/06f0ede378.js" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 </head>
-<body>
+<body style="background-color: #BBAC95;">
     
         <nav>
             <ul>
@@ -21,7 +21,29 @@
             </ul>
            
         </nav>
-
+        <main>
+            <div class="mobileNav pages">
+                <ul>
+                    <li><a href="index.html" >HOME</a></li>
+                    <li><a href="photography.html" class="active">PHOTOGRAPHY</a></li>
+                    <li><a href="video.html">VIDEO</a></li>
+                    <li><a href="coding.html" >CODING</a></li>
+                    <li><a href="graphics.html">GRAPHICS</a></li>
+                </ul>
+            </div>
+            <h1 class="pagesTitle">MY PERSONAL PHOTO GALLERYS</h1>
+            <div class="graphics" id="app">
+                
+                    <ul class="box-space">
+                        <li v-for="photo in photos" class="photo-box">
+                                <img :src="photo.image" alt="photo-image">
+                            <h3>{{photo.title}}</h3>
+                            <h4>{{photo.date}}</h4>
+                        </li>
+                    </ul>
+               
+            </div>
+        </main>
         <footer>
             <div class="contact">
                 <div class="border-left">
