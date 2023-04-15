@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORFOLIO-B.F.</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/06f0ede378.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+</head>
+<body>
+    
+        <nav>
+            <ul>
+                <li><a href="index.html" >HOME</a></li>
+                <li><a href="photography.html">PHOTOGRAPHY</a></li>
+                <li><a href="video.html" class="active">VIDEO</a></li>
+                <li><a href="coding.html">CODING</a></li>
+                <li><a href="graphics.html">GRAPHICS</a></li>
+            </ul>
+           
+        </nav>
+        <main>
+            <div class="mobileNav pages">
+                <ul>
+                    <li><a href="index.html" >HOME</a></li>
+                    <li><a href="photography.html">PHOTOGRAPHY</a></li>
+                    <li><a href="video.html">VIDEO</a></li>
+                    <li><a href="coding.html" class="active">CODING</a></li>
+                    <li><a href="graphics.html">GRAPHICS</a></li>
+                </ul>
+            </div>
+            <h1 class="pagesTitle">VIDEOS</h1>
+            <h1 style="color: #DFDFDF;">SADLY NO VIDEOS TO DISPLAY YET :-[</h1>
+            <div class="graphics" id="app">
+                
+                    <ul class="box-space">
+                        <li v-for="video in videos" class="box">
+                            <div class="image-box">
+                                <img :src="video.image" alt="graphic-image">
+                            </div>
+                            
+                            <h3>{{<video.title}}</h3>
+                            <p>{{video.description}}</p>
+                        </li>
+                    </ul>
+               
+            </div>
+        </main>
+        <footer style="display: none;">
+            <div class="contact">
+                <div class="border-left">
+                    <h2>CONTACT ME!</h2>
+                    <ul class="contactDetails">
+                        <li>Private mail: bartek.fenicki@gmail.com</li>
+                        <li>School mail: barfen01@easv365.dk </li>
+                        <li>Polish number: +48 660 234 701</li>
+                        <li>Danish number: +45 81 92 02 94</li>
+                    </ul>  
+                </div>
+                       
+            </div>
+            <div class="socials">
+                <div class="border-right">
+                    <h2>SOCIALS</h2>
+                    <ul class="socialMedia">
+                        <li><a href="https://github.com/bartekfenicki" class="fa fa-github"></a></li>
+                        <li><a href="https://www.facebook.com/bartek.fenicki/" class="fa fa-facebook"></a> </li>
+                        <li><a href="https://www.instagram.com/bartekfenickio/" class="fa fa-instagram"></a></li>
+                        <li><a href="https://www.linkedin.com/in/bart%C5%82omiej-fenicki-473138264/" class="fa fa-linkedin"></a> </li>
+                    </ul>  
+                </div>
+                
+            </div>
+        </footer>
+        <script src="app.js"></script>
+    </body>
+    </html>
