@@ -6,7 +6,7 @@
 /*MAIN PAGE*/
 
 body {
-    background-color: #A5A38E;
+    background-color: #BBAC95;
     font-family: Candara;
     margin: 0;
     padding: 0;
@@ -689,4 +689,42 @@ border-radius: 20px;
     font-style: italic;
     color: #3A3A3A;
     text-align: center;
+}
+.cv {
+    margin: 150px 0px 0px 0px;
+}
+.cv-space {
+    display: block;
+}
+video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.cv-links ul {
+    display: flex;
+    justify-content: space-between;
+   margin: 60px 250px 0px 200px;
+   
+}
+.cv-links ul li {
+    display: flex;
+    list-style: none;
+    padding: 30px;
+    background-color: #3A3A3A;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+.cv-links ul li:hover {
+    background-color: #000000;
+}
+.cv-links ul li a {
+    text-decoration: none;
+    color: #DFDFDF;
+    font-size: 40px;
+}
+.cv-footer {
+    width: 100%;
+    padding: 20px;
 }
