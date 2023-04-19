@@ -624,7 +624,8 @@ color: #DFDFDF;
 .box img {
     width: 80%;
     height: auto;
-    padding: 30px;
+    padding: 20px 20px 0px 20px;
+    margin: auto;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
     background-color: #DFDFDF;
@@ -693,6 +694,11 @@ border-radius: 20px;
 .cv {
     margin: 150px 0px 0px 0px;
 }
+.home-button-media {
+    display: none;
+    margin-left: 20px;
+    margin-top: 20px;
+}
 .cv-space {
     display: block;
 }
@@ -705,7 +711,7 @@ video {
 .cv-links ul {
     display: flex;
     justify-content: space-between;
-   margin: 60px 250px 0px 200px;
+   margin: 60px 250px 40px 200px;
    
 }
 .cv-links ul li {
@@ -724,7 +730,41 @@ video {
     color: #DFDFDF;
     font-size: 40px;
 }
-.cv-footer {
-    width: 100%;
-    padding: 20px;
+@media screen and (max-width:1000px) {
+    .cv .cv-space .cv-links ul {
+        margin: 60px 100px 40px 60px;
+    }
+    .cv .cv-space .cv-links ul li a {
+font-size: 25px;
+    }
+    .cv .cv-space video {
+        width: 600px;
+        height: auto;
+    }
+}
+@media screen and (max-width:675px){
+    .cv {
+        margin: 50px 0px 0px 0px;
+    }
+    .cv .cv-space video {
+        width: 320px;
+        height: auto;
+    }
+    .home-button-media {
+        display: block;
+        
+    }
+}
+@media screen and (max-width:575px){
+    .cv .cv-space .cv-links ul {
+        display: block;
+    }
+    .cv .cv-space .cv-links ul li {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .cv .cv-space .cv-links ul li a {
+        font-size: 17px;
+    }
 }

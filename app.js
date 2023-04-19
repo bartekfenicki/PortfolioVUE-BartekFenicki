@@ -22,6 +22,11 @@ data () {
             title: 'International Day Logo',
             description: 'Logo created for an international event in my university'
         },
+        {
+            image: 'assets/projekt blizny 2.png',
+            title: 'Beat Up Face Project',
+            description: 'A photoshop work about adding some basic scars and bruises to my face'
+        },
         
         
         
