@@ -35,12 +35,20 @@ data () {
             {
                 image: 'assets/Zrzut ekranu (17).png',
                 title: 'Barbecue Competiton site',
-                description: 'Site created during a group project to promote an event'
+                description: 'Site created during a group project to promote an event',
+                link: 'https://bartekfenicki.github.io/?fbclid=IwAR112G-t3xgZYwTCgZFazfJsdbav7WGwE_FKtSi5oDMiFr5ugpeYKXcqzyg'
             },
             {
                 image: 'assets/Zrzut ekranu (19).png',
                 title: 'The maze near Warsaw Site',
                 description: 'Site created for a small trourist attraction in Poland'
+            },
+            {
+                image: 'assets/zerocfpage.png',
+                title: 'Zero CF company Page',
+                description: 'Site in creation process for the Polish recycling company',
+                link: 'https://bartekfenicki.github.io/CFzeroPage/'
+                
             },
         ],
         videos: [

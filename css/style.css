@@ -118,7 +118,7 @@ main {
     width: 350px;
     border: 3px solid #DFDFDF;
     border-radius: 20px;
-    background-image: url(/assets/IMG-1971.jpg);
+    background-image: url(/assets/profilepic.JPG);
     background-size: cover;
     background-position: center;
 }
@@ -622,9 +622,9 @@ color: #DFDFDF;
 }
 
 .box img {
-    width: 80%;
+    width: 90%;
     height: auto;
-    padding: 20px 20px 0px 20px;
+    padding: 15px 10px 0px 15px;
     margin: auto;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
@@ -640,6 +640,10 @@ color: #DFDFDF;
 margin: 5px;
 color: #DFDFDF;
 text-align: center;
+}
+.box p .linkCode {
+    text-decoration: none;
+    color: #3952be;
 }
 @media screen and (max-width:1400px) {
     main .pagesTitle {
@@ -702,7 +706,7 @@ border-radius: 20px;
 .cv-space {
     display: block;
 }
-video {
+iframe {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -737,18 +741,18 @@ video {
     .cv .cv-space .cv-links ul li a {
 font-size: 25px;
     }
-    .cv .cv-space video {
+    .cv .cv-space iframe {
         width: 600px;
-        height: auto;
+        height: 350px;
     }
 }
 @media screen and (max-width:675px){
     .cv {
         margin: 50px 0px 0px 0px;
     }
-    .cv .cv-space video {
-        width: 320px;
-        height: auto;
+    .cv .cv-space iframe {
+        width: 340px;
+        height: 200px;
     }
     .home-button-media {
         display: block;
