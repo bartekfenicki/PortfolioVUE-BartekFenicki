@@ -158,14 +158,13 @@ main {
 /* css for navigation showed in mobile version */
 .mobileNav {
     display: none;
-    padding: 10px;
     width: 100%;
    margin-top: 40px;
     
 }
 .mobileNav ul {
     margin: 0;
-    padding: 0;
+    padding: 10px;
 }
 .mobileNav li {
     display: inline-block;
@@ -309,24 +308,20 @@ main .profile .text-space .job-title {
                 main .profile .text-space span {
                     margin-left: 0px;
                 }
-main .pages {
-    margin-top: 0;
-    top: 0;
-    
-}
+
+                main .mobileNav .pages {
+                    margin-top: 0px;
+                }
                 main .mobileNav {
-                    
-                    
                     display: block;
                     text-align: center;
-                    
                     background-color: #3A3A3A;
+
                 }
                 main .mobileNav ul li {
                     display: block;
                     margin-left: 0px;
                     text-align: center;
-                    width: 100%;
                 }
                 
                 main .mobileNav ul li a {
@@ -582,7 +577,6 @@ footer .fa {
         margin-left: 5px;
     }
     footer .socials {
-        position: none;
         display: none;
     }
     
