@@ -51,7 +51,7 @@ data () {
                 
             },
             {
-                image: 'assets/Zrzut ekranu (17).png',
+                image: 'assets/kanten.png',
                 title: 'Kanten site',
                 description: 'Site created for a small club in Esbjerg',
                 link: 'https://kanten-exam.web.app'
