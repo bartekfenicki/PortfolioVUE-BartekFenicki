@@ -47,8 +47,14 @@ data () {
                 image: 'assets/zerocfpage.png',
                 title: 'Zero CF company Page',
                 description: 'Site in creation process for the Polish recycling company',
-                link: 'https://bartekfenicki.github.io/CFzeroPage/'
                 
+                
+            },
+            {
+                image: 'assets/Zrzut ekranu (17).png',
+                title: 'Kanten site',
+                description: 'Site created for a small club in Esbjerg',
+                link: 'https://kanten-exam.web.app'
             },
         ],
         videos: [
